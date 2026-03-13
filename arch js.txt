@@ -1,0 +1,62 @@
+// ==========================================
+// MOD DETAILS PAGE RENDERER
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    const modDetailsContainer = document.getElementById("modDetailsContainer");
+
+    if (modDetailsContainer) {
+        const urlParams = new URLSearchParams(window.location.search);
+        const modId = urlParams.get('id');
+
+        if (modId !== null && mods[modId]) {
+            const mod = mods[modId];
+
+            // 1. Build Thumbnails (Left Section)
+            let thumbsHtml = "";
+            let maxThumbs = Math.min(mod.images.length, 5); // Max 5 as requested
+            for (let i = 0; i < maxThumbs; i++) {
+                // First image is active by default
+                let activeClass = (i === 0) ? 'active' : '';
+                thumbsHtml += `<img src="${mod.images[i]}" class="${activeClass}" onclick="changeMainImage(this, '${mod.images[i]}')" alt="Thumbnail ${i + 1}">`;
+            }
+
+            // 2. Central Image (First image is default)
+            let defaultImage = mod.images.length > 0 ? mod.images[0] : '';
+            let mainImageHtml = `<img id="mainModImage" src="${defaultImage}" alt="${mod.title}">`;
+
+            // 3. Build Entire Layout
+            modDetailsContainer.innerHTML = `
+                <div class="mod-thumbnails">
+                    ${thumbsHtml}
+                </div>
+                <div class="mod-main-image">
+                    ${mainImageHtml}
+                </div>
+                <div class="mod-info">
+                    <span class="category-badge">${mod.cat}</span>
+                    <h2>${mod.title}</h2>
+                    <p class="desc">${mod.desc}</p>
+                    <a class="download-btn-large" target="_blank" href="${mod.link}">TÉLÉCHARGER LE MOD</a>
+                </div>
+            `;
+        } else {
+            // Error handling if ID is invalid or missing
+            modDetailsContainer.innerHTML = `
+                <div style="text-align:center; width:100%; padding: 50px;">
+                    <h2>Mod introuvable.</h2>
+                    <br><a href="index.html" style="color:orange; font-size: 18px; text-decoration: none;">&larr; Retour à l'accueil</a>
+                </div>`;
+        }
+    }
+});
+
+// Function to handle thumbnail switching (must be global to be called by inline onclick)
+window.changeMainImage = function (thumbElement, newSrc) {
+    // 1. Update main image source
+    const mainImg = document.getElementById('mainModImage');
+    if (mainImg) mainImg.src = newSrc;
+
+    // 2. Manage active state styling on thumbnails
+    document.querySelectorAll('.mod-thumbnails img').forEach(img => img.classList.remove('active'));
+    thumbElement.classList.add('active');
+}
