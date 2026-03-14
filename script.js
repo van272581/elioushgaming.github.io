@@ -53,7 +53,7 @@ Concessionnaires de camions > Concessionnaire Access Mod > AMG
 Auteurs : Gaza`,
         images: [
             "https://ets2.lt/wp-content/uploads/2026/02/1-28-750x428.jpg","https://ets2.lt/wp-content/uploads/2026/02/1-28-750x428.jpg",
-            "https://rekonise.com/mod-voitures-tjm4s","https://ets2.lt/wp-content/uploads/2026/02/03-750x829.jpg",
+            "https://ets2.lt/wp-content/uploads/2026/02/03-750x829.jpg",
         ],
         link: "https://rekonise.com/gle-63s-pack-jxch8"
     },
