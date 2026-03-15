@@ -6,7 +6,7 @@ const mods = [
         desc: "Un pack de Peintures de Bus G8 1200 6x2 de Fabio Contier paint au couleur des compagnies ivoirien de transport de voyageurs tel que SBTA, UTB, ESIF, TSR sur l'étendu du territoire national et au dela des frontières.",
         images: [
             "./Assets/STA 1.jpg","https://cdn.discordapp.com/attachments/1400996579669835876/1439012579866312865/206BC01.JPG?ex=69b5dae6&is=69b48966&hm=573932f089ad9025b585e6251deb0102ca0717dee1d22d66267890f285be4e81&","https://media.discordapp.net/attachments/1400996579669835876/1439009567634620517/2054F11.JPG?ex=69b5d818&is=69b48698&hm=9388aa5c1bf18c7e0e1ff8c2599de88bd42255e5ad50c8d26f9630282583934d&=&format=webp&width=1604&height=902",
-            "https://cdn.discordapp.com/attachments/1400996579669835876/1439011622524948510/2094691.JPG?ex=69b5da02&is=69b48882&hm=e58ae647939d29e6722620e8824c6adf0136eae23a8dc4ede8387b7a5ac0a044&","./Assets/UTB Exclu front.jpg", "./Assets/TSR front.jpg","https://media.discordapp.net/attachments/1398790180952871074/1440252535020589196/20195A1.JPG?ex=69b66932&is=69b517b2&hm=e460c130dc534795f6b3223534945b7bfc5fc04ec7ba98a361d37c3bfc9fce97&=&format=webp&width=1604&height=902"
+            "https://cdn.discordapp.com/attachments/1400996579669835876/1439011622524948510/2094691.JPG?ex=69b5da02&is=69b48882&hm=e58ae647939d29e6722620e8824c6adf0136eae23a8dc4ede8387b7a5ac0a044&","./Assets/UTB Exclu front.jpg", "./Assets/TSR front.jpg","https://media.discordapp.net/attachments/1398790180952871074/1440252535020589196/20195A1.JPG?ex=69b66932&is=69b517b2&hm=e460c130dc534795f6b3223534945b7bfc5fc04ec7ba98a361d37c3bfc9fce97&=&format=webp&width=1604&height=902",
         ],
         link: "https://rekonise.com/3fcmodskinsg8scania6x2-wea59"
     },
@@ -53,7 +53,7 @@ Concessionnaires de camions > Concessionnaire Access Mod > AMG
 Auteurs : Gaza`,
         images: [
             "https://ets2.lt/wp-content/uploads/2026/02/1-28-750x428.jpg","https://ets2.lt/wp-content/uploads/2026/02/1-28-750x428.jpg",
-            "https://rekonise.com/mod-voitures-tjm4s","https://ets2.lt/wp-content/uploads/2026/02/03-750x829.jpg",
+            "https://ets2.lt/wp-content/uploads/2026/02/03-750x829.jpg",
         ],
         link: "https://rekonise.com/gle-63s-pack-jxch8"
     },
