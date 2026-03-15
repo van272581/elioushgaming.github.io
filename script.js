@@ -3,22 +3,22 @@ const mods = [
     {
         title: "Scania G8 Collection Ivoirienne",
         cat: "peintures",
-        desc: "Skins truck lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem 1000",
+        desc: "Un pack de Peintures de Bus G8 1200 6x2 de Fabio Contier paint au couleur des compagnies ivoirien de transport de voyageurs tel que SBTA, UTB, ESIF, TSR sur l'étendu du territoire national et au dela des frontières.",
         images: [
-            "./Assets/STA 1.jpg",
-            "./Assets/UTB Exclu front.jpg", "./Assets/TSR front.jpg"
+            "./Assets/STA 1.jpg","https://cdn.discordapp.com/attachments/1400996579669835876/1439012579866312865/206BC01.JPG?ex=69b5dae6&is=69b48966&hm=573932f089ad9025b585e6251deb0102ca0717dee1d22d66267890f285be4e81&","https://media.discordapp.net/attachments/1400996579669835876/1439009567634620517/2054F11.JPG?ex=69b5d818&is=69b48698&hm=9388aa5c1bf18c7e0e1ff8c2599de88bd42255e5ad50c8d26f9630282583934d&=&format=webp&width=1604&height=902",
+            "https://cdn.discordapp.com/attachments/1400996579669835876/1439011622524948510/2094691.JPG?ex=69b5da02&is=69b48882&hm=e58ae647939d29e6722620e8824c6adf0136eae23a8dc4ede8387b7a5ac0a044&","./Assets/UTB Exclu front.jpg", "./Assets/TSR front.jpg","https://media.discordapp.net/attachments/1398790180952871074/1440252535020589196/20195A1.JPG?ex=69b66932&is=69b517b2&hm=e460c130dc534795f6b3223534945b7bfc5fc04ec7ba98a361d37c3bfc9fce97&=&format=webp&width=1604&height=902"
         ],
-        link: "https://www.mediafire.com/file/6ei52mtwpliz2z1/3_FC_ModSkins_G8_Scania_6x2.scs/file"
+        link: "https://rekonise.com/3fcmodskinsg8scania6x2-wea59"
     },
     {
         title: "Mascarello R8- Edition Spéciale",
         cat: "peintures",
-        desc: "Peintures personnalisées",
+        desc: "Peintures personnalisées du bus Mascarello R8 de Leo Gaer pvh, accessible au garage du jeu",
         images: [
             "./Assets/mascarello R8 UTB 2 front.png",
             "./Assets/mascarello R8 INTERCITY.png"
         ],
-        link: "https://example.com"
+        link: "#"
     },
 
     {
@@ -28,7 +28,34 @@ const mods = [
         images: [
             "./Assets/Indenmonium front.png",
             "./Assets/indenmonium side.png"],
-        link: ""
+        link: "#"
+    },
+
+    {
+        title: "Mascarello R8- Edition Spéciale",
+        cat: "vehicules",
+        desc: `Mod véhicules Mercedes notamment GLE 63S 1.58.x
+
+Caractéristiques :
+- Extérieur et intérieur de très haute qualité
+- 3 options de couleur intérieure
+- Tableau de bord HQ UI avec vitesse numérique
+- GPS HQ
+- Excellente maniabilité et amélioration du moteur et de la physique
+- Fenêtres avant ouvrantes
+- Les essuie-glaces fonctionnent avec précision
+- Son moteur V8
+- Vitesse maximale : 300 km/h
+- Boîte 6 vitesses
+
+Concessionnaires de camions > Concessionnaire Access Mod > AMG
+
+Auteurs : Gaza`,
+        images: [
+            "https://ets2.lt/wp-content/uploads/2026/02/1-28-750x428.jpg","https://ets2.lt/wp-content/uploads/2026/02/1-28-750x428.jpg",
+            "https://rekonise.com/mod-voitures-tjm4s","https://ets2.lt/wp-content/uploads/2026/02/03-750x829.jpg",
+        ],
+        link: "https://rekonise.com/gle-63s-pack-jxch8"
     },
 
     {
@@ -46,72 +73,6 @@ const mods = [
         title: "Mascarello R8- Edition Spéciale",
         cat: "peintures",
         desc: "Peintures personnalisées",
-        images: [
-            "./Assets/mascarello R8 UTB 2 front.png",
-            "./Assets/mascarello R8 INTERCITY.png"
-        ],
-        link: "https://example.com"
-    },
-
-    {
-        title: "Mascarello R8- Edition Spéciale",
-        cat: "peintures",
-        desc: "Peintures personnalisées",
-        images: [
-            "./Assets/mascarello R8 UTB 2 front.png",
-            "./Assets/mascarello R8 INTERCITY.png"
-        ],
-        link: "https://example.com"
-    },
-
-    {
-        title: "Mascarello R8- Edition Spéciale",
-        cat: "peintures",
-        desc: "Peintures personnalisées",
-        images: [
-            "./Assets/mascarello R8 UTB 2 front.png",
-            "./Assets/mascarello R8 INTERCITY.png"
-        ],
-        link: "https://example.com"
-    },
-
-    {
-        title: "Mascarello R8- Edition Spéciale",
-        cat: "peintures",
-        desc: "Peintures personnalisées",
-        images: [
-            "./Assets/mascarello R8 UTB 2 front.png",
-            "./Assets/mascarello R8 INTERCITY.png"
-        ],
-        link: "https://example.com"
-    },
-
-    {
-        title: "Mascarello R8- Edition Spéciale",
-        cat: "peintures",
-        desc: "Peintures personnalisées",
-        images: [
-            "./Assets/mascarello R8 UTB 2 front.png",
-            "./Assets/mascarello R8 INTERCITY.png"
-        ],
-        link: "https://example.com"
-    },
-
-    {
-        title: "Mascarello R8- Edition Spéciale",
-        cat: "peintures",
-        desc: "Peintures personnalisées",
-        images: [
-            "./Assets/mascarello R8 UTB 2 front.png",
-            "./Assets/mascarello R8 INTERCITY.png"
-        ],
-        link: "https://example.com"
-    },
-
-    {
-        title: "Mascarello R8- Edition Spéciale",
-        cat: "peintures",
-        desc: "Peintures personnalisées-Amicitiam calculos Hoc verendum voluntatibus voluntatibus quid Hoc esse amicitiam nec sententia sit et definit quam plus plus ratio restricte est sententia acceptorum reddat nimis datorum ne verendum congeratur Hoc in nec ne par quid in ne esse Divitior restricte defluat amicitiam quam ut Divitior quid sit quid in Hoc in nec ac plus videtur ut sit vocare ratio videtur ratio est et neque mihi ad et mihi ne quid amicitiam vocare ad affluentior par congeratur ne exigue observare in sit ratio amicitia ut voluntatibus restricte ad mihi ne vera congeratur mihi aut quid sit aut in ne paribus nimis.",
         images: [
             "./Assets/mascarello R8 UTB 2 front.png",
             "./Assets/mascarello R8 INTERCITY.png"
